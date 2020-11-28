@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Nodo
+comment0.text=\r\n\ Clase\ Nodo\:\ contiene\ el\ objeto\ tipo\ Nodo.\r\n\ \r\n\ @author\ Judith\ Vargas\ and\ Josu\u00E9\ Retana\ \ \r\n\ @version\ 1\r\n
+comment1.params=
+comment1.target=void\ Nodo()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ nodo,\ caso\ sin\ par\u00E1metros.\r\n
+comment10.params=siguiente
+comment10.target=void\ setSiguiente(Nodo)
+comment2.params=valor\ incognita\ potencia
+comment2.target=Nodo(double,\ char,\ int)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ nodo,\ caso\ con\ par\u00E1metros.\r\n
+comment3.params=
+comment3.target=double\ getValor()
+comment4.params=valor
+comment4.target=void\ setValor(double)
+comment5.params=
+comment5.target=char\ getIncognita()
+comment6.params=incognita
+comment6.target=void\ setIncognita(char)
+comment7.params=
+comment7.target=int\ getPotencia()
+comment8.params=potencia
+comment8.target=void\ setPotencia(int)
+comment9.params=
+comment9.target=Nodo\ getSiguiente()
+numComments=11

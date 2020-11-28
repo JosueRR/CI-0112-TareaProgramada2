@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Vista
+comment1.params=
+comment1.target=java.lang.String\ ventanaEscribirEcuacion()
+comment1.text=\r\n\ M\u00E9todo\ que\ despligua\ la\ ventana\ preguntando\ por\ la\ ecuaci\u00F3n\ al\ usurio.\ Retorna\ un\ String.\r\n
+comment2.params=
+comment2.target=java.lang.String\ ventanaEscribirOperador()
+comment2.text=\r\n\ M\u00E9todo\ que\ despligua\ la\ ventana\ preguntando\ por\ la\ operaci\u00F3n\ al\ usurio.\ Retorna\ un\ String.\r\n
+comment3.params=ecuacionResultadoString
+comment3.target=void\ mostrarResultado(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ que\ despligua\ la\ ventana\ con\ el\ resultado\r\n
+numComments=4
