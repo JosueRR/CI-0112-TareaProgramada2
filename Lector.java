@@ -8,7 +8,7 @@
 import java.io.*;
 public class Lector
 {    
-    public String[] leer() {
+    public String[] leer(String entrada) {
         File archivo = null;
         FileReader fr = null;
         BufferedReader br = null;
@@ -16,7 +16,7 @@ public class Lector
         String[] ecuacionTotal = new String[2];
         try {
             // Abrir el fichero y crear BufferedReader para hacer la lectura            
-            archivo = new File ("C:/Users/personal/Desktop/Ecuacion.txt");
+            archivo = new File (entrada);
 
             fr = new FileReader (archivo);
             br = new BufferedReader(fr);

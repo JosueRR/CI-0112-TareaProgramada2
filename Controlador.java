@@ -23,6 +23,7 @@ public class Controlador {
     boolean primerValor = true;
     String entradaEcuacionPrimera = "";
     String entradaEcuacionSegunda = "";
+    String entradaRutaArchivo = "";
     String operador = "";
     String ecuacionResultadoString = "";
 
@@ -56,7 +57,8 @@ public class Controlador {
                 break;
 
                 case "b":
-                String[] ecuacionTotal = lector.leer();
+                entradaRutaArchivo = vista.ventanaRuta();
+                String[] ecuacionTotal = lector.leer(entradaRutaArchivo);
 
                 entradaEcuacionPrimera = ecuacionTotal[0];
                 ecuacion1 = lista.ingresarEcuacion(entradaEcuacionPrimera);
@@ -69,7 +71,11 @@ public class Controlador {
                 ecuacionResultado = lista.operacionAritmetica(operador, ecuacion1, ecuacion2);
 
                 ecuacionResultadoString = lista.convertirString(ecuacionResultado,primerValor);
-                escritor.escribir(ecuacionResultadoString);
+                
+                
+                escritor.escribir(ecuacionResultadoString,entradaEcuacionPrimera, entradaEcuacionSegunda, operador,entradaRutaArchivo);
+                
+                JOptionPane.showMessageDialog(null,"Ecuación leída y simplificada");
                 break;
 
                 case "c":

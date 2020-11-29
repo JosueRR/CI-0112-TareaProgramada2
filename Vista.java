@@ -34,4 +34,11 @@ public class Vista {
     public void mostrarResultado(String ecuacionResultadoString) {
         JOptionPane.showMessageDialog(null,"Ecuacion simplificada: "+ ecuacionResultadoString);
     }
+    
+    /**
+     * Método que despligua la ventana con el resultado
+     */
+    public String ventanaRuta() {
+        return JOptionPane.showInputDialog("Escriba la dirección en donde se encuentra el archivo (leer formato en manual de usuario)");
+    }
 }
