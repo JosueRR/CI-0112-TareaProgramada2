@@ -44,11 +44,14 @@ public class Controlador {
                 case "a":
                 entradaEcuacionPrimera = vista.ventanaEscribirEcuacion();
                 ecuacion1 = lista.ingresarEcuacion(entradaEcuacionPrimera);
+                vista.mostrarIngreso(entradaEcuacionPrimera);
 
-                operador = vista.ventanaEscribirOperador();                    
+                operador = vista.ventanaEscribirOperador();
+                vista.mostrarIngreso(operador);
 
                 entradaEcuacionSegunda = vista.ventanaEscribirEcuacion();
                 ecuacion2 = lista.ingresarEcuacion(entradaEcuacionSegunda);
+                vista.mostrarIngreso(entradaEcuacionSegunda);
 
                 ecuacionResultado = lista.operacionAritmetica(operador, ecuacion1, ecuacion2);
 

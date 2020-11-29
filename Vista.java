@@ -36,7 +36,14 @@ public class Vista {
     }
     
     /**
-     * Método que despligua la ventana con el resultado
+     * Método que despligua la ventana con el ingreso del usuario
+     */
+    public void mostrarIngreso(String ingreso) {
+        JOptionPane.showMessageDialog(null,"Usted ha ingresado: "+ ingreso);
+    }
+    
+    /**
+     * Método que despligua la ventana que pregunta por la dirección de archivos
      */
     public String ventanaRuta() {
         return JOptionPane.showInputDialog("Escriba la dirección en donde se encuentra el archivo (leer formato en manual de usuario)");
